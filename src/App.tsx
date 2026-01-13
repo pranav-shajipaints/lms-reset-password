@@ -87,7 +87,7 @@ export default function App() {
           <div className="flex items-center gap-3 border-b p-4">
             <div className="h-11 w-11 rounded-xl bg-primary/10 flex items-center justify-center overflow-hidden">
               <img
-                src="/shajipaints_icon.png"
+                src={`${import.meta.env.BASE_URL}shajipaints_icon.png`}
                 alt="Logo"
                 className="h-8 w-8 object-contain animate-pulse"
               />
